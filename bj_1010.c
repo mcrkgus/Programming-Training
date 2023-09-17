@@ -22,6 +22,5 @@ int main()
 		printf("%.lf\n", C(m_site, n_site));
 
 	}
-
 	return 0;
 }
