@@ -13,7 +13,6 @@ c.sort(key=lambda x : (x[1], x[2]))
 
 classroom = []
 
-mh = []
 cnt = 0
 for i in c:
     while classroom and classroom[0] <= i[1]:  # 가장 일찍 끝나는 시간보다 시작 시간이 크면
